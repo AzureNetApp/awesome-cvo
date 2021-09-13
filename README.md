@@ -1,8 +1,20 @@
-# awesome-cvo
-
 # Awesome Cloud Volumes ONTAP (CVO) - A curated list of Azure Cloud Volumes ONTAP Resources
 
-- [Awesome Cloud Volumes ONTAP (CVO) - A curated list of Azure Cloud Volumes ONTAP Resources(#awesome-azure-cloud-volumes-ontap-cvo---a-curated-list-of-azure-cloud-volumes-ontap-resources)
+- [Awesome Azure Cloud Volumes ONTAP (CVO) - A curated list of Azure Cloud Volumes ONTAP Resources](#awesome-azure-cloud-volumes-ontap-cvo---a-curated-list-of-azure-cloud-volumes-ontap-resources)
+  - [General considerations for CVO in Azure](#general-considerations-for-CVO-in-Azure)
+  - [How-To /Guides](#how-to--guides)
+    - [Storage](#storage)
+    - [Provision and Manage Storage](#provision-and-manage-storage)
+    - [Installation Guides](#installation-guides)
+  - [Blogs](#blogs)
+  - [ONTAP Concepts](#ontap-concepts)
+  - [Architecture](#architecture)
+    - [Networking](#networking)
+  - [Security](#security)
+  - [Automation](#automation)
+    - [Terraform](#terraform)
+  - [Performance](#performance)
+  - [Pricing](#pricing)
 
 ## General considerations for CVO in Azure
 
