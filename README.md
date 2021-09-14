@@ -2,7 +2,7 @@
 
 - [Awesome Azure Cloud Volumes ONTAP (CVO) - A curated list of Azure Cloud Volumes ONTAP Resources](#awesome-azure-cloud-volumes-ontap-cvo---a-curated-list-of-azure-cloud-volumes-ontap-resources)
   - [General considerations for CVO in Azure](#general-considerations-for-CVO-in-Azure)
-  - [How-To /Guides](#how-to--guides)
+  - [How-To / Guides](#how-to--guides)
     - [Storage](#storage)
     - [Provision and Manage Storage](#provision-and-manage-storage)
     - [Installation Guides](#installation-guides)
