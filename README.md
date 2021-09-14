@@ -10,9 +10,11 @@
   - [ONTAP Concepts](#ontap-concepts)
   - [Architecture](#architecture)
     - [Networking](#networking)
+  - [Data Protection](#data-protection)
   - [Security](#security)
   - [Automation](#automation)
     - [Terraform](#terraform)
+    - [Application Templates](#application-templates)
   - [Performance](#performance)
   - [Pricing](#pricing)
 
@@ -72,6 +74,13 @@
 
 - [Networking requirements in Azure:](https://docs.netapp.com/us-en/occm/reference_networking_azure.html)
 
+## Data Protection
+
+- [Learn about the replication service](https://docs.netapp.com/us-en/occm/concept_replication.html)
+- [Replicating data between systems](https://docs.netapp.com/us-en/occm/task_replicating_data.html)
+- [Manage data replication schedules and relationships](https://docs.netapp.com/us-en/occm/task_managing_replication.html)
+- [Learn about replication policies](https://docs.netapp.com/us-en/occm/concept_replication_policies.html)
+
 ## Security
 
 - [CVO Security](https://docs.netapp.com/us-en/occm/concept_security.html)
@@ -81,6 +90,14 @@
 ### Terraform
 
 - [Terraform: netapp-cloudmanager_cvo_azure [docs]](https://registry.terraform.io/providers/NetApp/netapp-cloudmanager/latest/docs/resources/cvo_azure)
+
+### Application Templates
+
+- [Learn about applicaton templates](https://docs.netapp.com/us-en/occm/concept_resource_templates.html)
+- [Template building blocks](https://docs.netapp.com/us-en/occm/reference_template_building_blocks.html)
+- [Build application templates for your organization](https://docs.netapp.com/us-en/occm/task_define_templates.html)
+- [Check resources for template compliance](https://docs.netapp.com/us-en/occm/task_check_template_compliance.html)
+- [Run templates to create resources](https://docs.netapp.com/us-en/occm/task_run_templates.html)
 
 ## Performance
 
