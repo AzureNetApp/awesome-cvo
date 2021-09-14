@@ -20,6 +20,7 @@
 
 ## General considerations for CVO in Azure
 
+- [Azure CVO Deployment Playbook and Guide](https://github.com/felix-melligan/NetApp_Cloud_SE_Documentation/blob/main/Azure/Connector_Deployment.md)
 - [Planning your CVO configuration in Azure](https://docs.netapp.com/us-en/occm/task_planning_your_config_azure.html)
 - [Supported configuration](https://docs.netapp.com/us-en/cloud-volumes-ontap/reference_configs_azure_991.html)
 - [Azure sizing guide](https://docs.netapp.com/us-en/occm/task_planning_your_config_azure.html#sizing-your-system-in-azure)
