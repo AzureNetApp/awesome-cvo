@@ -65,6 +65,7 @@
 ## ONTAP Concepts
 
 - [Flex Cache](https://www.netapp.com/knowledge-center/what-is-flex-cache/)
+- [Snapshots](https://docs.netapp.com/ontap-9/index.jsp?topic=%2Fcom.netapp.doc.dot-cm-concepts%2FGUID-BE5710C9-AA51-4D91-9FE8-8F5642B79297.html)
 
 ## Architecture
 
