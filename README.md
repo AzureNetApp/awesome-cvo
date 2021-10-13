@@ -52,6 +52,7 @@
 
 ### Installation Guides
 
+- [Getting Started with Cloud Volumes ONTAP in Azure: The Setup Walkthrough](https://cloud.netapp.com/blog/a-step-by-step-guide-to-setting-up-cloud-volumes-ontap-on-azure)
 - [Step-by-step guide to setting up CVO in Azure](https://cloud.netapp.com/blog/a-step-by-step-guide-to-setting-up-cloud-volumes-ontap-on-azure)
 - [Step-by-step guide with video for SaaS based Cloud Manager setup](https://cloud.netapp.com/step-by-step-guide-azure-cvo-lp#1)
 
