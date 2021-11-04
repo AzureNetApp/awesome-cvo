@@ -193,7 +193,6 @@ if [ $MODE == "cm" ]; then
       "https://management.usgovcloudapi.net"
       "https://login.microsoftonline.com"
       "https://api.services.cloud.netapp.com"
-      "https://cloud.support.netapp.com.s3.us-west-1.amazonaws.com"
       "https://cognito-idp.us-east-1.amazonaws.com"
       "https://cognito-identity.us-east-1.amazonaws.com"
       "https://sts.amazonaws.com"
@@ -204,16 +203,13 @@ if [ $MODE == "cm" ]; then
       "https://netapp-cloud-account.auth0.com"
       "https://mysupport.netapp.com"
       "https://support.netapp.com"
-      "https://eval.lic.netapp.com.s3.us-west-1.amazonaws.com"
       "https://client.infra.support.netapp.com.s3.us-west-1.amazonaws.com"
       "https://cloud-support-netapp-com-accelerated.s3.us-west-1.amazonaws.com"
-      "https://trigger.asup.netapp.com.s3.us-west-1.amazonaws.com"
       "https://ipa-signer.cloudmanager.netapp.com"
     )
   elif [[ $PROVIDER == "gcp" ]]; then
     declare -a urls_to_test=("https://www.googleapis.com"
       "https://api.services.cloud.netapp.com"
-      "https://cloud.support.netapp.com.s3.us-west-1.amazonaws.com"
       "https://cognito-idp.us-east-1.amazonaws.com"
       "https://cognito-identity.us-east-1.amazonaws.com"
       "https://sts.amazonaws.com"
@@ -224,11 +220,9 @@ if [ $MODE == "cm" ]; then
       "https://netapp-cloud-account.auth0.com"
       "https://mysupport.netapp.com"
       "https://support.netapp.com"
-      "https://eval.lic.netapp.com.s3.us-west-1.amazonaws.com"
       "https://cloud-support-netapp-com.s3.us-west-1.amazonaws.com"
       "https://client.infra.support.netapp.com.s3.us-west-1.amazonaws.com"
       "https://cloud-support-netapp-com-accelerated.s3.us-west-1.amazonaws.com"
-      "https://trigger.asup.netapp.com.s3.us-west-1.amazonaws.com"
       "https://ipa-signer.cloudmanager.netapp.com"
     )
   elif [[ $PROVIDER == "onprem" ]]; then
