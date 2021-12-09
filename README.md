@@ -72,7 +72,7 @@
 ## Architecture
 
 - [HA pairs in Azure](https://docs.netapp.com/us-en/occm/concept_ha_azure.html)
-- [CVO sizer](https://github.dev/AzureNetApp/awesome-cvo)
+- [CVO sizer](https://cloud.netapp.com/azure-cvo-sizer)
 
 ### Networking
 
