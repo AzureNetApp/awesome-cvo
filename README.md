@@ -3,6 +3,7 @@
 - [Awesome Azure Cloud Volumes ONTAP (CVO) - A curated list of Azure Cloud Volumes ONTAP Resources](#awesome-azure-cloud-volumes-ontap-cvo---a-curated-list-of-azure-cloud-volumes-ontap-resources)
   - [General considerations for CVO in Azure](#general-considerations-for-CVO-in-Azure)
   - [How-To / Guides](#how-to--guides)
+    - [Administration](#administration)
     - [Storage](#storage)
     - [Provision and Manage Storage](#provision-and-manage-storage)
     - [Installation Guides](#installation-guides)
@@ -12,6 +13,7 @@
     - [Networking](#networking)
   - [Data Protection](#data-protection)
   - [Security](#security)
+  - [Cloud Volumes ONTAP Limits](#cloud-volumes-ontap-limits)
   - [Automation](#automation)
     - [Terraform](#terraform)
     - [Application Templates](#application-templates)
@@ -21,6 +23,7 @@
 ## General considerations for CVO in Azure
 
 - [Azure CVO Deployment Playbook and Guide](https://github.com/felix-melligan/NetApp_Cloud_SE_Documentation/blob/main/Azure/Connector_Deployment.md)
+- [Quick start for CVO in Azure](https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-azure.html)
 - [Planning your CVO configuration in Azure](https://docs.netapp.com/us-en/occm/task_planning_your_config_azure.html)
 - [Supported configuration](https://docs.netapp.com/us-en/cloud-volumes-ontap/reference_configs_azure_991.html)
 - [Azure sizing guide](https://docs.netapp.com/us-en/occm/task_planning_your_config_azure.html#sizing-your-system-in-azure)
@@ -32,6 +35,13 @@
 
 ## How-to / Guides
 
+### Administration
+
+- [Manage the state of CVO](https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-managing-state.html#scheduling-automatic-shutdowns-of-cloud-volumes-ontap)
+- [Upgrade CVO](https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-updating-ontap-cloud.html)
+- [Register Pay-Go Systems](https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-registering.html)
+- [Change Azure VM type](https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-change-azure-vm.html)
+
 ### Storage
 
 - [Disks and Aggregates](https://docs.netapp.com/us-en/occm/concept_storage.html)
@@ -40,6 +50,7 @@
 - [Write Speed](https://docs.netapp.com/us-en/occm/concept_write_speed.html#recommendations-when-using-high-write-speed)
 - [Flash Cache](https://docs.netapp.com/us-en/occm/concept_flash_cache.html)
 - [WORM Storage](https://docs.netapp.com/us-en/occm/concept_worm.html)
+- [Manage Storage VMs in Cloud Manager](https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-managing-svms.html)
 
 ### Provision and Manage Storage
 
@@ -52,6 +63,7 @@
 
 ### Installation Guides
 
+- [Launch Cloud Volumes ONTAP in Azure](https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-azure.html)
 - [Getting Started with Cloud Volumes ONTAP in Azure: The Setup Walkthrough](https://cloud.netapp.com/blog/a-step-by-step-guide-to-setting-up-cloud-volumes-ontap-on-azure)
 - [Step-by-step guide to setting up CVO in Azure](https://cloud.netapp.com/blog/a-step-by-step-guide-to-setting-up-cloud-volumes-ontap-on-azure)
 - [Step-by-step guide with video for SaaS based Cloud Manager setup](https://cloud.netapp.com/step-by-step-guide-azure-cvo-lp#1)
@@ -62,6 +74,7 @@
 - [SVM-DR](https://www.netapp.com/blog/simplified-svm-level-data-protection-using-oncommand-system-manager-9-5/)
 - [How to deploy Cloud Volumes ONTAP using NetApp Cloud Manager Terraform Provider](https://cloud.netapp.com/blog/cvo-blg-setting-up-cloud-volumes-ontap-with-the-terraform-provider)
 - [Terraform & Cloud Manager: How to Use Cloud Manager Terraform Provider](https://cloud.netapp.com/blog/cvo-blg-terraform-cloud-manager-terraform-provider)
+- [Azure Storage Security Best Practices and How to Implement Them](https://cloud.netapp.com/blog/azure-cvo-blg-azure-storage-security-best-practices-and-how-to-use-them#H_H5)
 
 
 ## ONTAP Concepts
@@ -72,11 +85,12 @@
 ## Architecture
 
 - [HA pairs in Azure](https://docs.netapp.com/us-en/occm/concept_ha_azure.html)
+- [Default configurations for CVO](https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/reference-default-configs.html#default-setup)
 - [CVO sizer](https://cloud.netapp.com/azure-cvo-sizer)
 
 ### Networking
 
-- [Networking requirements in Azure:](https://docs.netapp.com/us-en/occm/reference_networking_azure.html)
+- [Networking requirements in Azure](https://docs.netapp.com/us-en/occm/reference_networking_azure.html)
 
 ## Data Protection
 
@@ -88,6 +102,13 @@
 ## Security
 
 - [CVO Security](https://docs.netapp.com/us-en/occm/concept_security.html)
+
+## CLoud Volumes ONTAP Limits
+
+- [Storage limits in Azure](https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/reference-limits-azure.html#maximum-system-capacity-by-license)
+- [Storage VM limits](https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/reference-limits-azure.html#storage-vm-limits)
+- [Aggregate limits](https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/reference-limits-azure.html#aggregate-limits)
+- [File and volume limits](https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/reference-limits-azure.html#file-and-volume-limits)
 
 ## Automation
 
